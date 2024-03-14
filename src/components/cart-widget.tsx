@@ -8,8 +8,9 @@ export function CartWidget() {
 
   return (
     <div className="flex items-center gap-2">
-      <ShoppingBag className="h-4 w-4" />
-      <span className="text-sm">Cart ({items.length})</span>
+      <ShoppingBag className="h-6 w-6" />
+      <p>Cart</p>
+      <span className="text-base font-bold text-red-500">{items.length}</span>
     </div>
   );
 }

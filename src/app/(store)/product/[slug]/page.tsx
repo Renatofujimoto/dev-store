@@ -4,6 +4,8 @@ import { Metadata } from "next";
 import { api } from "@/data/api";
 import { Product } from "@/app/types/product";
 import { AddToCartButton } from "@/components/add-cart-button";
+import router from "next/router";
+import { BackButton } from "@/components/back-button";
 
 interface ProductProps {
   params: {
@@ -88,25 +90,25 @@ export default async function ProductPage({ params }: ProductProps) {
           <div className="flex gap-2">
             <button
               type="button"
-              className="flex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold"
+              className="flex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold hover:bg-zinc-300 hover:text-black"
             >
               P
             </button>
             <button
               type="button"
-              className="flex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold"
+              className="flex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold hover:bg-zinc-300 hover:text-black"
             >
               M
             </button>
             <button
               type="button"
-              className="flex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold"
+              className="flex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold hover:bg-zinc-300 hover:text-black"
             >
               G
             </button>
             <button
               type="button"
-              className="flex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold"
+              className="flex h-9 w-14 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800 text-sm font-semibold hover:bg-zinc-300 hover:text-black"
             >
               GG
             </button>
@@ -114,6 +116,7 @@ export default async function ProductPage({ params }: ProductProps) {
         </div>
 
         <AddToCartButton productId={Number(product.id)} />
+        <BackButton />
       </div>
     </div>
   );
