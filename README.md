@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
+[REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
+[NEXT_BADGE]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[PROJECT__URL]: https://dev-store-chi.vercel.app/
 
-## Getting Started
+<h1 align="center" style="font-weight: bold;">E-commerce Dev Store 💻</h1>
 
-First, run the development server:
+![react][REACT__BADGE]
+![next][NEXT_BADGE]
+![typescript][TYPESCRIPT__BADGE]
+![javascript][JAVASCRIPT__BADGE]
+
+<p align="center">
+ <a href="#about">Sobre</a> • 
+ <a href="#started">Começando</a> • 
+</p>
+<p align="center">
+    <img src=".github/portfolio.png" alt="Image Example" width="700px">
+</p>
+<h2 id="started">📌 Sobre</h2>
+
+Projeto realizado na trilha react da Rockseat, abordando conceitos de server side render, criando um projeto fullstack a partir da camada de nodejs no próprio nextjs.
+
+<h2 id="started">🚀 Começando</h2>
+
+Você precisa clonar o repositório do projeto e seguir passo a passo com os seus respectivos documentos.
+
+[![project][PROJECT__BADGE]][PROJECT__URL]
+
+<h3>Pré requisitos</h3>
+
+Lista das tecnologias que você precisa:
+
+- [NodeJS](https://nodejs.org/en/download/current)
+- [Git 2](https://github.com)
+
+<h3>Clonando</h3>
+
+Como clonar o projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Renatofujimoto/dev-store.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>Começando</h3>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Como começar
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+cd dev-store
 
-## Learn More
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+yarn install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2 id="contribute">📫 Contribuição</h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Aqui você explicará como outros desenvolvedores podem contribuir para o seu projeto. Por exemplo, explicando como podem criar suas ramificações, quais padrões seguir e como abrir uma pull request
 
-## Deploy on Vercel
+1. `git clone https://github.com/Renatofujimoto/polls-fullstack.git`
+2. `git checkout -b feature/NAME`
+3. Siga os padrões de projeto
+4. Abra um Pull Request explicando o problema resolvido ou recurso realizado, se existir, anexe screenshot das modificações visuais e aguarde a revisão!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h3>Documentação</h3>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+
+[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
