@@ -3,6 +3,7 @@
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
 [NEXT_BADGE]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [PROJECT__URL]: https://dev-store-chi.vercel.app/
+[PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 
 <h1 align="center" style="font-weight: bold;">E-commerce Dev Store 💻</h1>
 
@@ -16,7 +17,7 @@
  <a href="#started">Começando</a> • 
 </p>
 <p align="center">
-    <img src=".github/portfolio.png" alt="Image Example" width="700px">
+    <img src=".github/devstore.png" alt="Image Example" width="700px">
 </p>
 <h2 id="started">📌 Sobre</h2>
 
